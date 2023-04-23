@@ -1,0 +1,27 @@
+ * @param {string} s
+ * @param {number} k
+ * @return {number}
+ */
+const numberOfArrays = function (s, k) {
+  const memo = new Array(s.length).fill(0)
+  const base = (10 ** 9) + 7
+
+  for (let i = s.length - 1; i >= 0; i--) {
+    let num = 0
+    let count = 0
+    if (s[i] === '0') {
+      continue
+    }
+    for (let j = i; j < s.length; j++) {
+      num = num * 10 + parseInt(s[j], 10)
+      if (num <= k) {
+        count += (memo[j + 1] === undefined ? 1 : memo[j + 1])
+        count %= base
+      } else {
+        break
+      }
+    }
+    memo[i] = count
+  }
+  return memo[0]
+}
