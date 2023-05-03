@@ -14,5 +14,5 @@ class Solution {
         ans[1].push_back(num);
 
     return ans;
-  }
+   }
 };
