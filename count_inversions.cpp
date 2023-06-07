@@ -1,6 +1,3 @@
-/*
-    Problem Link: https://practice.geeksforgeeks.org/problems/inversion-of-array-1587115620/1
-*/
 
 int merge(vector<int> &arr, int start, int mid, int end) {
     int n1 = mid - start + 1; // mid is included
