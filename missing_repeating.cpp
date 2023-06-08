@@ -1,7 +1,3 @@
-/*
-    problem link: https://www.youtube.com/redirect?event=video_description&redir_token=QUFFLUhqbTBURkpGb1l5X3lzMC1oS1dHUVBuRVlZRlp4d3xBQ3Jtc0tuYXV3YmQybmY0QWc2NkUyeHZNUUVNcUFVSEpHdVQtcVR4RDFtYUQ3eWJSendVMWhRUG8yamVJMWFMTWhZZ1hHSDNrUnFpZHhxa3dRcFB0VzNHaWJNeWNSVllQa0x5cDZtTjRSTGpXVk8ya1VuZy0zYw&q=https%3A%2F%2Fwww.geeksforgeeks.org%2Ffind-a-repeating-and-a-missing-number%2F
-*/
-
 #include <bits/stdc++.h>
 using namespace std;
 
