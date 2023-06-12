@@ -1,6 +1,3 @@
-/*
-    Problem Link: https://leetcode.com/problems/powx-n/
-*/
 
 #define lli long long int
 lli M = 1e9 + 7;
