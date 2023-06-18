@@ -1,6 +1,3 @@
-/*
-    Problem Link: https://leetcode.com/problems/4sum/
-*/
 
 vector<vector<int>> fourSum(vector<int> &nums, int target) {
     vector<vector<int>> result;
