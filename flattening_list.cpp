@@ -1,6 +1,3 @@
-/*
-    Problem Link: https://practice.geeksforgeeks.org/problems/flattening-a-linked-list/1
-*/
 
 // helper function to merge 2 sorted lists
 Node *mergeLists(Node *l1, Node *l2) {
