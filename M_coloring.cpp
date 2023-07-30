@@ -1,3 +1,4 @@
+
 #include <bits/stdc++.h>
 using namespace std;
 
@@ -11,7 +12,6 @@ bool isPossible(int node, int color[], bool graph[101][101], int V, int col) {
             return false;
     }
     return true;
-    
 }
 
 bool solve(int node, int color[], int m, int V, bool graph[101][101]) {
