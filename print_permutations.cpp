@@ -1,4 +1,3 @@
-
 void permute_helper(vector<vector<int>> &results, vector<int> &nums, int idx) {
     // base case
     if(idx == (int)nums.size() - 1) {
