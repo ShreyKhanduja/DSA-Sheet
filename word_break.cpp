@@ -2,7 +2,6 @@
 using namespace std;
 
 int wordBreak(string A, vector<string> &B);
-
 int main(){
     int t;
     cin>>t;
