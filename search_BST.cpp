@@ -1,4 +1,3 @@
-
 TreeNode *searchBST(TreeNode *root, int val) {
     // base case
     if(!root)
