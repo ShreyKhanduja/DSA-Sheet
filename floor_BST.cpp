@@ -1,4 +1,3 @@
-
 int floor(Node *root, int key) {
     int floor_val = -1;
     while(root) {
@@ -11,5 +10,4 @@ int floor(Node *root, int key) {
             root = root->right;
         }
     }
-    return floor_val;
-}
+    return floor_val;}
