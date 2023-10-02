@@ -1,4 +1,3 @@
-
 int findCeil(Node *root, int key) {
     int ceil_val = -1;
     while(root) {
