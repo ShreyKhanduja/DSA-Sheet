@@ -1,13 +1,20 @@
-
-int findKthLargest(vector<int> &nums, int k) {
-    priority_queue<int, vector<int>, greater<int>> pq;
-    for(int i = 0; i < nums.size(); i++) {
-        if(pq.size() < k) 
-            pq.push(nums[i]);
-        else if(nums[i] > pq.top()) {
-            pq.pop();
-            pq.push(nums[i]);
+int kthLargest(Node *root, int k) {
+    stack<Node*> s;
+    while(!s.empty() || root) {
+        // reach the rightmost node
+        while(root) {
+            s.push(root);
+            root = root->right;
         }
+        // pop the rightmost node
+        root = s.top();
+        s.pop();
+        // condition check
+        if(--k == 0)
+            return root->data;
+        // move to the left subtree
+        else    
+            root = root->left;
     }
-    return pq.top();
+    return -1;
 }
