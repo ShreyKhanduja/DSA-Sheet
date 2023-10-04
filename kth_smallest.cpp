@@ -1,4 +1,3 @@
-
 int kthSmallest(TreeNode *root, int k) {
    stack<TreeNode*> s;
    while(!s.empty() || root) {
