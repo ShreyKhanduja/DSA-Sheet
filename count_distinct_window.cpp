@@ -1,4 +1,3 @@
-
 vector<int> Solution::dNums(vector<int> &A, int k) {
     vector<int> results;
     const int n = A.size();
