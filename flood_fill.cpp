@@ -1,4 +1,3 @@
-
 class Solution {
     int rows, cols;
     int row_dirs[4] = {0, 0, -1, 1};
