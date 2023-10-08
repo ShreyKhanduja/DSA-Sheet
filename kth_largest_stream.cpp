@@ -1,4 +1,3 @@
-
 vector<int> kthLargest(int k, int arr[], int n) {
     vector<int> results(k - 1, -1); // no window of size k found
     priority_queue<int, vector<int>, greater<int>> pq; // min heap
