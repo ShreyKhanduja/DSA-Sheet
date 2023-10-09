@@ -1,4 +1,3 @@
-
 class MedianFinder {
 public:
     priority_queue<int> maxHeap; // max of the left part
