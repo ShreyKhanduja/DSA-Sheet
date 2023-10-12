@@ -1,4 +1,3 @@
-
 bool bfs(vector<int> adj[], int source, int V, vector<bool> &visited) {
     queue<int> q;
     q.push(source);
