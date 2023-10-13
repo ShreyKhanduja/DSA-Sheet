@@ -1,4 +1,3 @@
-
 class Solution {
   public:
     // dfs helper function to find cycle
