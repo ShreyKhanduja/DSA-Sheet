@@ -1,4 +1,3 @@
-
 void dfs_helper(int node, vector<int> adj[], int V, vector<bool> &visited, vector<int> &results) {
     // base case
     if(visited[node])
