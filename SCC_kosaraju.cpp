@@ -1,17 +1,7 @@
 class Solution
 {
 	public:
-	// Function to find number of strongly connected components in the graph.
-	// from each node we can reach every other node in the SCC
-	// dfs from the last node
 	
-	/*
-	    Algorithm:
-	        1. Sort all nodes in the order of finishing time ie. time of reach, when dfs call returns back
-	        2. Transpose the graph ie. all the edges will get reversed.
-	        3. Do the DFS according to the finishing time.
-	*/
-	// helper function to sort all the nodes in the order of finishing time.
 	void dfs_helper(int node, stack<int> &st, vector<bool> &visited, vector<int> adj[]) {
 	    // mark the current node as visited
 	    visited[node] = true;
